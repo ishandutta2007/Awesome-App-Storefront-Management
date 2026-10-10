@@ -71,7 +71,7 @@ The table below ranks commercial SaaS platforms by parent company size (valuatio
 
 ## 🔓 Open-Source GitHub Projects 💻
 
-*Sorted by GitHub Stars_Count (Descending)* 🌟
+*Sorted by GitHub_Stars_Count (Descending)* 🌟
 
 - **[Medusa](https://github.com/medusajs/medusa)** [![Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)  
   **The world's most flexible commerce platform** ⚡, MIT licensed. **31K+ GitHub_Stars** ⭐ — **The ultimate modular headless commerce engine**. Built with Node.js/TypeScript + PostgreSQL. Features 22+ customizable commerce modules serving as the backbone for multi-vendor marketplaces, B2B storefronts, and custom app distribution platforms. 🛒
@@ -120,7 +120,7 @@ Contributions are highly encouraged! To add new app storefront software, SaaS to
 
 1. 🍴 **Fork** this repository.
 2. 📝 **Add or edit** entries in `README.md` keeping formatting, pricing transparency, company valuation data, and exact Stars_Badges intact.
-3. 🔗 Include official project links, exact starting tier prices, explicit free trial limits, and exact repository paths for GitHub Stars_Badges.
+3. 🔗 Include official project links, exact starting tier prices, explicit free trial limits, and exact repository paths for GitHub_Stars_Badges.
 4. 🚀 Submit a **Pull Request** detailing your additions.
 
 ---
