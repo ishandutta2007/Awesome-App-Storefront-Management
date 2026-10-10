@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Card Gradient -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+
+    <!-- Accent Gradients -->
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818cf8"/>
+      <stop offset="50%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .title { font-family: system-ui, -apple-system, sans-serif; font-weight: 800; font-size: 52px; fill: #ffffff; }
+    .subtitle { font-family: system-ui, -apple-system, sans-serif; font-weight: 500; font-size: 22px; fill: #94a3b8; }
+    .badge-text { font-family: system-ui, -apple-system, sans-serif; font-weight: 600; font-size: 14px; fill: #e2e8f0; }
+    
+    /* Animations */
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 0.4; }
+      50% { transform: scale(1.08); opacity: 0.8; }
+      100% { transform: scale(1); opacity: 0.4; }
+    }
+    @keyframes floatSlow {
+      0% { transform: translateY(0px); }
+      50% { transform: translateY(-12px); }
+      100% { transform: translateY(0px); }
+    }
+    @keyframes dash {
+      to { stroke-dashoffset: -40; }
+    }
+    
+    .pulsing-orb { animation: pulse 6s infinite ease-in-out; transform-origin: center; }
+    .floating-card { animation: floatSlow 5s infinite ease-in-out; }
+    .animated-flow { stroke-dasharray: 8 8; animation: dash 3s linear infinite; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="400" rx="16" fill="url(#bgGradient)"/>
+  
+  <!-- Subtle Grid Pattern Background -->
+  <g opacity="0.05" stroke="#ffffff" stroke-width="1">
+    <path d="M 0,50 L 1200,50 M 0,100 L 1200,100 M 0,150 L 1200,150 M 0,200 L 1200,200 M 0,250 L 1200,250 M 0,300 L 1200,300 M 0,350 L 1200,350" />
+    <path d="M 100,0 L 100,400 M 200,0 L 200,400 M 300,0 L 300,400 M 400,0 L 400,400 M 500,0 L 500,400 M 600,0 L 600,400 M 700,0 L 700,400 M 800,0 L 800,400 M 900,0 L 900,400 M 1000,0 L 1000,400 M 1100,0 L 1100,400" />
+  </g>
+
+  <!-- Background Animated Glowing Orbs (Safely placed behind text & graphics) -->
+  <circle class="pulsing-orb" cx="150" cy="100" r="180" fill="#6366f1" filter="url(#glow)"/>
+  <circle class="pulsing-orb" cx="1050" cy="300" r="200" fill="#a855f7" filter="url(#glow)"/>
+
+  <!-- Decorative Marketplace Architecture Elements (Right Side Visuals) -->
+  <g class="floating-card" transform="translate(820, 70)">
+    <!-- Vendor Panel Node Card -->
+    <rect x="0" y="0" width="280" height="75" rx="12" fill="url(#cardGrad)" stroke="#6366f1" stroke-opacity="0.3" stroke-width="1.5"/>
+    <circle cx="35" cy="37.5" r="18" fill="#818cf8" fill-opacity="0.2"/>
+    <path d="M 30,37.5 L 40,37.5 M 35,32.5 L 35,42.5" stroke="#818cf8" stroke-width="2.5" stroke-linecap="round"/>
+    <text x="70" y="34" class="badge-text" font-weight="700">Multi-Vendor Management</text>
+    <text x="70" y="52" class="badge-text" fill="#94a3b8" font-size="12">Seller Payouts & Commission</text>
+    
+    <!-- Storefront API Node Card -->
+    <g transform="translate(-40, 95)">
+      <rect x="0" y="0" width="280" height="75" rx="12" fill="url(#cardGrad)" stroke="#c084fc" stroke-opacity="0.3" stroke-width="1.5"/>
+      <circle cx="35" cy="37.5" r="18" fill="#c084fc" fill-opacity="0.2"/>
+      <path d="M 28,37.5 L 42,37.5 M 35,30.5 L 35,44.5" stroke="#c084fc" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="70" y="34" class="badge-text" font-weight="700">Headless Architecture</text>
+      <text x="70" y="52" class="badge-text" fill="#94a3b8" font-size="12">GraphQL / REST Commerce APIs</text>
+    </g>
+
+    <!-- App Storefront Analytics Card -->
+    <g transform="translate(20, 190)">
+      <rect x="0" y="0" width="280" height="75" rx="12" fill="url(#cardGrad)" stroke="#f472b6" stroke-opacity="0.3" stroke-width="1.5"/>
+      <circle cx="35" cy="37.5" r="18" fill="#f472b6" fill-opacity="0.2"/>
+      <path d="M 27,42 L 33,34 L 38,38 L 43,30" stroke="#f472b6" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="70" y="34" class="badge-text" font-weight="700">Catalog & Monetization</text>
+      <text x="70" y="52" class="badge-text" fill="#94a3b8" font-size="12">PIM & Marketplace Analytics</text>
+    </g>
+
+    <!-- Flow connection lines -->
+    <path class="animated-flow" d="M 140,75 L 100,95" stroke="#818cf8" stroke-width="2" fill="none" opacity="0.6"/>
+    <path class="animated-flow" d="M 100,170 L 160,190" stroke="#c084fc" stroke-width="2" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- Foreground Title and Subtitle (Crisp & Perfectly Readable) -->
+  <g transform="translate(80, 150)">
+    <!-- Pill Badge -->
+    <g transform="translate(0, -65)">
+      <rect x="0" y="0" width="290" height="34" rx="17" fill="#6366f1" fill-opacity="0.15" stroke="#818cf8" stroke-opacity="0.4"/>
+      <text x="16" y="22" class="badge-text" fill="#a5b4fc">🏪 AWESOME STOREFRONT ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="15" class="title">
+      Awesome App Storefront
+    </text>
+    <text x="0" y="70" class="title" fill="url(#primaryGrad)">
+      Management
+    </text>
+
+    <!-- Subtitle Description -->
+    <text x="0" y="125" class="subtitle">
+      Curated Multi-Vendor SaaS Platforms, Headless Commerce Engines &amp; Open-Source Tools
+    </text>
+
+    <!-- Feature Tags -->
+    <g transform="translate(0, 160)">
+      <rect x="0" y="0" width="130" height="30" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1"/>
+      <text x="16" y="20" class="badge-text" font-size="13">✨ SaaS Platforms</text>
+
+      <rect x="142" y="0" width="155" height="30" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1"/>
+      <text x="158" y="20" class="badge-text" font-size="13">🔓 Open-Source Repos</text>
+
+      <rect x="309" y="0" width="145" height="30" rx="8" fill="#ffffff" fill-opacity="0.06" stroke="#ffffff" stroke-opacity="0.1"/>
+      <text x="325" y="20" class="badge-text" font-size="13">⚡ Headless Storefronts</text>
+    </g>
+  </g>
+</svg>
