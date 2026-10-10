@@ -33,7 +33,7 @@ Welcome to the definitive, SEO-optimized directory of **app storefront managemen
 **Key Market Context & Benchmarks:** 📊
 - **Salesforce AppExchange** dominates enterprise app marketplaces with **$250B+ parent market cap** ☁️, **6M+ total installs** 🚀, and usage across **89% of Fortune 100 companies** 🏢.
 - **Mirakl** leads dedicated SaaS enterprise marketplace operations with **$3.5B+ valuation** 🎯, **450+ enterprise clients across 40 countries** 🌐, and **$699/month starting seller tier** 💸.
-- **Bagisto & Medusa** lead open-source marketplace innovation with **28K+ and 31K+ GitHub stars** ⭐, delivering customizable multi-vendor models with zero platform transaction fees 🆓.
+- **Bagisto & Medusa** lead open-source marketplace innovation with **28K+ and 31K+ GitHub_Stars** ⭐, delivering customizable multi-vendor models with zero platform transaction fees 🆓.
 - **Spree Commerce** provides battle-tested Ruby/Next.js infrastructure powering **65,000+ product marketplaces** 🛍️ like Maisonette.
 
 ---
@@ -71,46 +71,46 @@ The table below ranks commercial SaaS platforms by parent company size (valuatio
 
 ## 🔓 Open-Source GitHub Projects 💻
 
-*Sorted by GitHub Star Count (Descending)* 🌟
+*Sorted by GitHub Stars_Count (Descending)* 🌟
 
 - **[Medusa](https://github.com/medusajs/medusa)** [![Stars](https://img.shields.io/github/stars/medusajs/medusa?style=social&color=white)](https://github.com/medusajs/medusa/stargazers)  
-  **The world's most flexible commerce platform** ⚡, MIT licensed. **31K+ GitHub stars** ⭐ — **The ultimate modular headless commerce engine**. Built with Node.js/TypeScript + PostgreSQL. Features 22+ customizable commerce modules serving as the backbone for multi-vendor marketplaces, B2B storefronts, and custom app distribution platforms. 🛒
+  **The world's most flexible commerce platform** ⚡, MIT licensed. **31K+ GitHub_Stars** ⭐ — **The ultimate modular headless commerce engine**. Built with Node.js/TypeScript + PostgreSQL. Features 22+ customizable commerce modules serving as the backbone for multi-vendor marketplaces, B2B storefronts, and custom app distribution platforms. 🛒
 
 - **[Bagisto](https://github.com/bagisto/bagisto)** [![Stars](https://img.shields.io/github/stars/bagisto/bagisto?style=social&color=white)](https://github.com/bagisto/bagisto/stargazers)  
-  **Free and open-source Laravel e-commerce framework** 🚀, MIT licensed. **28K+ GitHub stars** ⭐ — **Leading PHP multi-vendor marketplace engine**. Includes built-in multi-inventory management, multi-tenant SaaS features, vendor panels, order commission control, and native mobile app integrations out of the box. 📦
+  **Free and open-source Laravel e-commerce framework** 🚀, MIT licensed. **28K+ GitHub_Stars** ⭐ — **Leading PHP multi-vendor marketplace engine**. Includes built-in multi-inventory management, multi-tenant SaaS features, vendor panels, order commission control, and native mobile app integrations out of the box. 📦
 
 - **[Saleor](https://github.com/saleor/saleor)** [![Stars](https://img.shields.io/github/stars/saleor/saleor?style=social&color=white)](https://github.com/saleor/saleor/stargazers)  
-  **Leading open-source MACH commerce platform** 🎯, BSD-3-Clause licensed. **23K+ GitHub stars** ⭐ — **GraphQL-first headless commerce engine** built on Python/Django. Offers modular multi-channel storefront management, enterprise REST/GraphQL APIs, webhooks, and 45+ dashboard extension points. ⚡
+  **Leading open-source MACH commerce platform** 🎯, BSD-3-Clause licensed. **23K+ GitHub_Stars** ⭐ — **GraphQL-first headless commerce engine** built on Python/Django. Offers modular multi-channel storefront management, enterprise REST/GraphQL APIs, webhooks, and 45+ dashboard extension points. ⚡
 
 - **[Spree Commerce](https://github.com/spree/spree)** [![Stars](https://img.shields.io/github/stars/spree/spree?style=social&color=white)](https://github.com/spree/spree/stargazers)  
-  **Open Source Platform for DTC, B2B Commerce & Marketplaces** 🛍️, BSD 3-Clause licensed. **16K+ GitHub stars** ⭐ — **Battle-tested Ruby on Rails & Next.js 16 storefront framework**. Includes vendor onboarding checklists, split seller order management, automated commission engines, and Stripe Connect payout ledgers in its core. Powers enterprise platforms like Maisonette's 65,000+ product marketplace. 🚀
+  **Open Source Platform for DTC, B2B Commerce & Marketplaces** 🛍️, BSD 3-Clause licensed. **16K+ GitHub_Stars** ⭐ — **Battle-tested Ruby on Rails & Next.js 16 storefront framework**. Includes vendor onboarding checklists, split seller order management, automated commission engines, and Stripe Connect payout ledgers in its core. Powers enterprise platforms like Maisonette's 65,000+ product marketplace. 🚀
 
 - **[nopCommerce](https://github.com/nopCommerce/nopCommerce)** [![Stars](https://img.shields.io/github/stars/nopCommerce/nopCommerce?style=social&color=white)](https://github.com/nopCommerce/nopCommerce/stargazers)  
-  **Free and open-source ASP.NET Core e-commerce platform** ⚡, GPL-2.0 licensed. **10K+ GitHub stars** ⭐ — **Top .NET open-source marketplace software**. Supports multi-store and multi-vendor architecture natively, enabling vendors to manage inventory, sales reporting, and shipping options independently. 🏢
+  **Free and open-source ASP.NET Core e-commerce platform** ⚡, GPL-2.0 licensed. **10K+ GitHub_Stars** ⭐ — **Top .NET open-source marketplace software**. Supports multi-store and multi-vendor architecture natively, enabling vendors to manage inventory, sales reporting, and shipping options independently. 🏢
 
 - **[OpenCart](https://github.com/opencart/opencart)** [![Stars](https://img.shields.io/github/stars/opencart/opencart?style=social&color=white)](https://github.com/opencart/opencart/stargazers)  
-  **Free open-source e-commerce platform** 🛍️, GPL-3.0 licensed. **8.2K+ GitHub stars** ⭐ — **Lightweight PHP e-commerce framework**. Features extensive multi-store capabilities, 13,000+ marketplace extensions, integrated payment gateways, and vendor management add-ons. 🏬
+  **Free open-source e-commerce platform** 🛍️, GPL-3.0 licensed. **8.2K+ GitHub_Stars** ⭐ — **Lightweight PHP e-commerce framework**. Features extensive multi-store capabilities, 13,000+ marketplace extensions, integrated payment gateways, and vendor management add-ons. 🏬
 
 - **[Sylius](https://github.com/Sylius/Sylius)** [![Stars](https://img.shields.io/github/stars/Sylius/Sylius?style=social&color=white)](https://github.com/Sylius/Sylius/stargazers)  
-  **Headless e-commerce framework for Symfony** 🎛️, MIT licensed. **8.0K+ GitHub stars** ⭐ — **Developer-first PHP e-commerce framework**. Highly customizable domain model and checkout pipeline designed for complex digital storefronts and B2B multi-tenant marketplaces. ⚙️
+  **Headless e-commerce framework for Symfony** 🎛️, MIT licensed. **8.0K+ GitHub_Stars** ⭐ — **Developer-first PHP e-commerce framework**. Highly customizable domain model and checkout pipeline designed for complex digital storefronts and B2B multi-tenant marketplaces. ⚙️
 
 - **[Vendure](https://github.com/vendure-ecommerce/vendure)** [![Stars](https://img.shields.io/github/stars/vendure-ecommerce/vendure?style=social&color=white)](https://github.com/vendure-ecommerce/vendure/stargazers)  
-  **TypeScript-first headless commerce framework** ⚡, MIT licensed. **5.5K+ GitHub stars** ⭐ — **Modern GraphQL commerce engine** built on NestJS & Fastify. Provides lightweight extensible architecture, vendor management plugins, and intuitive administrator panels. 🛠️
+  **TypeScript-first headless commerce framework** ⚡, MIT licensed. **5.5K+ GitHub_Stars** ⭐ — **Modern GraphQL commerce engine** built on NestJS & Fastify. Provides lightweight extensible architecture, vendor management plugins, and intuitive administrator panels. 🛠️
 
 - **[Sharetribe](https://github.com/sharetribe/sharetribe)** [![Stars](https://img.shields.io/github/stars/sharetribe/sharetribe?style=social&color=white)](https://github.com/sharetribe/sharetribe/stargazers)  
-  **Open-source peer-to-peer marketplace software** 🤝, Source Available / Apache 2.0 licensed. **2.4K+ GitHub stars** ⭐ — **Pioneer in rental, service, and peer-to-peer marketplace platforms**. Offers customizable booking engines, vendor listings, availability calendars, and payment processing. 📅
+  **Open-source peer-to-peer marketplace software** 🤝, Source Available / Apache 2.0 licensed. **2.4K+ GitHub_Stars** ⭐ — **Pioneer in rental, service, and peer-to-peer marketplace platforms**. Offers customizable booking engines, vendor listings, availability calendars, and payment processing. 📅
 
 - **[Mercur](https://github.com/mercurjs/mercur)** [![Stars](https://img.shields.io/github/stars/mercurjs/mercur?style=social&color=white)](https://github.com/mercurjs/mercur/stargazers)  
-  **The complete open source platform to run your entire marketplace** 🎯, MIT licensed. **1.2K+ GitHub stars** ⭐ — **Limitless open-source multi-vendor marketplace framework** built directly on MedusaJS. Features built-in vendor onboarding, multi-seller product offers, commission snapshotted rules, and Stripe Connect payouts out of the box. 💳
+  **The complete open source platform to run your entire marketplace** 🎯, MIT licensed. **1.2K+ GitHub_Stars** ⭐ — **Limitless open-source multi-vendor marketplace framework** built directly on MedusaJS. Features built-in vendor onboarding, multi-seller product offers, commission snapshotted rules, and Stripe Connect payouts out of the box. 💳
 
 - **[OroCommerce](https://github.com/oroinc/orocommerce)** [![Stars](https://img.shields.io/github/stars/oroinc/orocommerce?style=social&color=white)](https://github.com/oroinc/orocommerce/stargazers)  
-  **Flexible B2B commerce platform** 🏗️, OSL-3.0 licensed. **1.1K+ GitHub stars** ⭐ — **Enterprise B2B digital commerce engine**. Built on Symfony with deeply integrated CRM capabilities, buyer-seller corporate accounts, personalized price lists, and workflow engines. 📊
+  **Flexible B2B commerce platform** 🏗️, OSL-3.0 licensed. **1.1K+ GitHub_Stars** ⭐ — **Enterprise B2B digital commerce engine**. Built on Symfony with deeply integrated CRM capabilities, buyer-seller corporate accounts, personalized price lists, and workflow engines. 📊
 
 - **[Spryker Cloud Commerce OS](https://github.com/spryker/spryker)** [![Stars](https://img.shields.io/github/stars/spryker/spryker?style=social&color=white)](https://github.com/spryker/spryker/stargazers)  
-  **Modular Commerce System for B2B, B2C, and Marketplace** 🏢, MIT/Proprietary licensed core. **850+ GitHub stars** ⭐ — **Enterprise composable commerce platform**. Designed for high-volume transactions, enterprise app marketplaces, and complex multi-vendor integrations. ⚡
+  **Modular Commerce System for B2B, B2C, and Marketplace** 🏢, MIT/Proprietary licensed core. **850+ GitHub_Stars** ⭐ — **Enterprise composable commerce platform**. Designed for high-volume transactions, enterprise app marketplaces, and complex multi-vendor integrations. ⚡
 
 - **[Tujjar](https://github.com/dev-taherm/Tujjar)** [![Stars](https://img.shields.io/github/stars/dev-taherm/Tujjar?style=social&color=white)](https://github.com/dev-taherm/Tujjar/stargazers)  
-  **AI-powered, open-source e-commerce platform** 🧠, MIT licensed. **350+ GitHub stars** ⭐ — **Django & Next.js multi-tenant SaaS marketplace framework**. Features drag-and-drop page builders, 6 integrated AI providers, multi-vendor backend apps, and full REST APIs. 🤖
+  **AI-powered, open-source e-commerce platform** 🧠, MIT licensed. **350+ GitHub_Stars** ⭐ — **Django & Next.js multi-tenant SaaS marketplace framework**. Features drag-and-drop page builders, 6 integrated AI providers, multi-vendor backend apps, and full REST APIs. 🤖
 
 ---
 
@@ -119,8 +119,8 @@ The table below ranks commercial SaaS platforms by parent company size (valuatio
 Contributions are highly encouraged! To add new app storefront software, SaaS tools, or open-source marketplace frameworks:
 
 1. 🍴 **Fork** this repository.
-2. 📝 **Add or edit** entries in `README.md` keeping formatting, pricing transparency, company valuation data, and exact star badges intact.
-3. 🔗 Include official project links, exact starting tier prices, explicit free trial limits, and exact repository paths for GitHub star badges.
+2. 📝 **Add or edit** entries in `README.md` keeping formatting, pricing transparency, company valuation data, and exact Stars_Badges intact.
+3. 🔗 Include official project links, exact starting tier prices, explicit free trial limits, and exact repository paths for GitHub Stars_Badges.
 4. 🚀 Submit a **Pull Request** detailing your additions.
 
 ---
